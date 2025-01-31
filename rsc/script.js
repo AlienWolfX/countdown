@@ -9,7 +9,7 @@
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "01/31/", // February 1st <3
+    dayMonth = "02/01/", // February 1st <3
     monthsaryDay = "1",
     anniversary = dayMonth + yyyy;
 
@@ -65,7 +65,7 @@
         setTimeout(() => {
           window.location.href =
             "https://alienwolfx.github.io/countdown/pages/heart.html";
-        }, 10000);
+        }, 1000);
       }
     }, 0);
 })();
