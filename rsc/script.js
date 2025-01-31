@@ -9,7 +9,7 @@
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "02/01/", // February 1st <3
+    dayMonth = "01/31/", // February 1st <3
     monthsaryDay = "1",
     anniversary = dayMonth + yyyy;
 
@@ -61,6 +61,10 @@
         document.getElementById("countdown").style.display = "none";
         document.getElementById("anniversary").style.display = "block";
         clearInterval(x);
+
+        setTimeout(() => {
+          window.location.href = "../pages/heart.html";
+        }, 10000);
       }
     }, 0);
 })();
