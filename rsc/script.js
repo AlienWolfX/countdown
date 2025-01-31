@@ -63,7 +63,8 @@
         clearInterval(x);
 
         setTimeout(() => {
-          window.location.href = "/countdown/pages/heart.html";
+          window.location.href =
+            "https://alienwolfx.github.io/countdown/pages/heart.html";
         }, 10000);
       }
     }, 0);
